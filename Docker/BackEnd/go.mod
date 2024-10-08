@@ -1,4 +1,4 @@
-module github.com/michaello1/zauni-zadanie-appbackend
+module github.com/p-e-t-e-r10/2024_ONPK_Mako/tree/main/Docker/BackEnd
 
 go 1.23
 
