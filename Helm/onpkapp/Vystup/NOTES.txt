@@ -1,0 +1,33 @@
+
+Thank you for installing My ONPK Application!
+
+## Deploy APP
+helm upgrade --install onpkapp . --values values-onpkapp.yaml --wait --namespace onpkapp --create-namespace
+
+Your application is being deployed. Below are the details to access the services:
+
+## Frontend Service
+
+- URL: http://onpkapp.mydomain.local:8080
+- To test locally, you can use `kubectl port-forward`:
+
+*******LOCAL TEST********
+- kubectl port-forward svc/onpkapp-frontend 8080:8080 -n onpkapp
+
+## Backend Service
+
+- URL: http://onpkapp.mydomain.local:9080
+- To test locally, you can use `kubectl port-forward`:
+
+*******LOCAL TEST********
+- kubectl port-forward svc/onpkapp-backend 9080:9080 -n onpkapp
+
+
+## MongoDB
+
+- MongoDB connection string:
+  ```
+  mongodb://admin:password@onpkapp-mongodb:27017/platformsdb
+  ```
+
+
