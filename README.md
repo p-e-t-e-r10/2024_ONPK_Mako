@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Orchestration Tools for Containers - Final Assignment
 
@@ -70,3 +71,7 @@ The main objectives of the assignment are:
 
 For any questions or clarifications, please reach out via the course communication channels.
 
+=======
+Hlavny priecinok k predmetu Orchestracne nastroje pre kontajnery
+1. uloha DOCKER - priecinok Docker -> BackEnd (FrontEnd), zmeny v DockerFile (pushnute aj na DockerHub-e s tagmi)
+>>>>>>> c6419026ce9a666ee07424a3c71bf911295b27c5
