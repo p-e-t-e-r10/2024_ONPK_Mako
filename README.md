@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-
 # Orchestration Tools for Containers - Final Assignment
 
-This repository contains the solutions for the **Final Assignment** of the course "Orchestration Tools for Containers". The work demonstrates the deployment of a microservices-based application with a frontend, backend, and MongoDB, leveraging modern DevOps practices.
+This repository contains the solutions for the ONPK-Final Assignment of the course "Orchestration Tools for Containers". The work demonstrates the deployment of a microservices-based application with a frontend, backend, and MongoDB, leveraging modern DevOps practices.
 
 ## Structure
 
@@ -16,7 +14,7 @@ The repository is organized into the following directories:
 
 ### 2. **Helm**
    - Contains Helm charts for deploying the frontend and backend services, along with MongoDB.
-   - Supports environment customization via `values.yaml`.
+   - Supports environment customization via `values-onpkapp.yaml`.
 
 ### 3. **CI/CD**
    - Tekton pipelines for automating the build and deployment processes.
@@ -69,9 +67,4 @@ The main objectives of the assignment are:
 
 ## Contact
 
-For any questions or clarifications, please reach out via the course communication channels.
-
-=======
-Hlavny priecinok k predmetu Orchestracne nastroje pre kontajnery
-1. uloha DOCKER - priecinok Docker -> BackEnd (FrontEnd), zmeny v DockerFile (pushnute aj na DockerHub-e s tagmi)
->>>>>>> c6419026ce9a666ee07424a3c71bf911295b27c5
+For any questions or clarifications, please reach out via the course communication channels

@@ -53,11 +53,11 @@ The chart allows the following values to be configured:
 ## Usage
 
 1. Install the Helm chart:
-   ```bash
+   
    helm upgrade --install onpkapp . --values values-onpkapp.yaml --wait --namespace onpkapp --create-namespace
-   ```
+   
 
 2. Uninstall the Helm chart:
-   ```bash
+   
    helm uninstall onpkapp
-   ```
+   
